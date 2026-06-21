@@ -67,7 +67,7 @@ public class Member extends User {
         System.out.println("Member dapat melihat dan mencari lagu.");
     }
     
-    	// Melihat detail lagu berdasarkan indeks tertentu di array
+    // Melihat detail lagu berdasarkan indeks tertentu di array
     public void lihatDetailLagu(Lagu[] playlist, int index) {
         System.out.println("\n=== DETAIL LAGU (INDEKS " + index + ") ===");
         if (index >= 0 && index < playlist.length && playlist[index] != null) {
